@@ -1,0 +1,71 @@
+/* style.css */
+@import url("css/components/avatar.css");
+@import url("css/components/button.css");
+
+body{
+  color: black;
+  font-size: 15px;
+  font-family: Playfair Display, serif;
+  text-align: center;
+  margin: 0px;
+
+}
+h1{
+  font-family:Playfair Display, serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 45px; 
+  padding : 50px;
+}
+h2 {
+  font-family: Playfair Display, serif;
+  color: #2b6ea1;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #99eff7;
+}
+a:hover {
+  text-decoration: none;
+  color: #2b6ea1;
+}
+#footer{
+  font-size: 18px;
+  font-family:Raleway;
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
+}
+#footer a:hover {
+  color: #99eff7;
+  transition: all 0.3s hover;
+}
+.card{
+    padding: 100px;
+    text-align: center;
+} 
+#banner {
+  background-image:url("../../images/leaves.jpeg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  color: black;
+}
+´#banner h1 {
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner p {
+  font-size: 30px;
+  font-family: 'Playfair Display';
+}
+#navbar {
+  font-family: Raleway;
+}
