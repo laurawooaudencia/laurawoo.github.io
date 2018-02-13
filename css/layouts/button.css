@@ -1,0 +1,15 @@
+.btn {
+  border: 1px solid #ffffff;
+  background-color: #C2A0A1;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color: #ffffff;
+  color: #000000;
+  opacity: 0.9;
+  font-style: 'Raleway' !important;
+  font-size: 14px;
+}
+.btn:hover {
+    transition: background 0.5s ease;
+    opacity: 1;
+}

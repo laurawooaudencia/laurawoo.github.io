@@ -1,4 +1,4 @@
-/* style.css */
+﻿/* style.css */
 @import url("css/components/avatar.css");
 @import url("css/components/button.css");
 
@@ -19,7 +19,7 @@ h1{
 }
 h2 {
   font-family: Playfair Display, serif;
-  color: #2b6ea1;
+  color: white;
   font-size: 24px;
   text-transform: uppercase;
   border-radius: 5px;
