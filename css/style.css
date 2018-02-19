@@ -36,19 +36,28 @@ a:hover {
   color: #CB8478;
   transition: all 0.3s ease;
 }
-p {
-  font-style: 'Raleway';
+p{
+  font-family: Playfair Display, serif;
+}
+
+.content {
+  text-align: center;
+  padding: 0px 150px;
+  font-family: Playfair Display, serif;
 }
 /* Main navbar */
 .navbar {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
-  height: 70px;
+  height: 50px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px;
+  width: 100%;
+  position: fixed;
 }
 
 /* Logo */
@@ -127,13 +136,14 @@ p {
 .banner {
   color: black;
   text-align: center;
-  height: calc(100vh - 70px);
+  height: 100vh;
   background-size: cover !important;
   background-image: url(images/banner.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
   background-position: center;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 .banner h1 {
@@ -144,10 +154,35 @@ p {
   font-size: 25px;
   color: rgb(255, 255, 255);
   margin-bottom: 30px;
-  font-family: 'Raleway';
+  font-family: Raleway, serif;
 }
 .banner-content{
-  font-family: 'Raleway';
+  font-family: Raleway, serif;
+}
+.banner2 {
+  color: black;
+  text-align: center;
+  height: 50vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: bottom;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.banner2 h1 {
+  font-size: 50px;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.2);
+}
+.banner2 p {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  font-family: Raleway, serif;
+}
+.banner2-content{
+  font-family: Raleway, serif;
 }
 .footer {
   background: #F4F4F4;

@@ -13,7 +13,6 @@
   background-position: center;
   padding: 50px 0px;
   margin: 10px 0px;
-  text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   font-size: 25px;
@@ -41,8 +40,11 @@
   color: white;
   position: relative;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 10px;
+}
+.card h2{
+  text-transform: none;
 }
 .card-user {
   position: absolute;
@@ -57,12 +59,15 @@
   left: 10px;
   font-size: 15px;
   text-transform: uppercase;
+  font-family: Raleway, serif;
+  font-weight: lighter;
 }
 .card-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
   text-align: left;
+  font-family: Playfair Display, serif;
 }
 .card-description h2 {
   font-size: 24px;
